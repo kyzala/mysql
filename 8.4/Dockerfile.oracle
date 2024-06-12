@@ -4,7 +4,8 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM oraclelinux:9-slim
+#FROM oraclelinux:9-slim
+FROM registry.cn-hangzhou.aliyuncs.com/alastack/oraclelinux:9-slim
 
 RUN set -eux; \
 	groupadd --system --gid 999 mysql; \
